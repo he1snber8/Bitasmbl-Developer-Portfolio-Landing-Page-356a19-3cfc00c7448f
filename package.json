@@ -1,0 +1,9 @@
+{
+  "name": "dev-portfolio",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
